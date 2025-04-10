@@ -1,9 +1,9 @@
-name: openff-docs-examples
+name: openff-ugm-2025
 channels:
     - conda-forge
 dependencies:
     - pip
-    - python>=3.10
+    - python=3.11
     - jupyterlab>=4
     - ipywidgets>=8
     - jupyterlab_execute_time
@@ -20,14 +20,10 @@ dependencies:
     - requests
     - packaging
     # Examples
-    - openff-toolkit-examples >=0.16.0
-    - openff-interchange >=0.3.26
-    - openff-nagl >=0.3.8
-    - openff-bespokefit
-    - openff-forcefields >= 2024.04.0
+    - openff-toolkit-examples =0.16.8
+    - openff-interchange =0.4
+    - openff-nagl =0.5.2
     - openff-qcsubmit
-    - gromacs >=2021=nompi*
-    - lammps >=2023.08.02
     - rich
     - jax
     - dgl
@@ -40,4 +36,6 @@ dependencies:
     - chemper
     - mdanalysis
     - plotly
-    - snakeviz
+    - pyxdg
+    - pip:
+        - git+https://github.com/openforcefield/openff-pablo.git@v0.0.1a1
