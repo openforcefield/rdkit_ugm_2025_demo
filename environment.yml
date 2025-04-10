@@ -1,0 +1,43 @@
+name: openff-docs-examples
+channels:
+    - conda-forge
+dependencies:
+    - pip
+    - python>=3.10
+    - jupyterlab>=4
+    - ipywidgets>=8
+    - jupyterlab_execute_time
+    - jupyterlab-lsp
+    # - pyright
+    - jedi-language-server
+    - jupyterlab_code_formatter
+    - black
+    - isort
+    # Cookbook
+    - gitpython
+    - nbconvert
+    - nbformat
+    - requests
+    - packaging
+    # Examples
+    - openff-toolkit-examples >=0.16.0
+    - openff-interchange >=0.3.26
+    - openff-nagl >=0.3.8
+    - openff-bespokefit
+    - openff-forcefields >= 2024.04.0
+    - openff-qcsubmit
+    - gromacs >=2021=nompi*
+    - lammps >=2023.08.02
+    - rich
+    - jax
+    - dgl
+    - nglview>=3.0.6
+    - xtb-python
+    - pdbfixer
+    - mdtraj
+    - psi4
+    - openmmtools
+    - chemper
+    - mdanalysis
+    - plotly
+    - snakeviz
